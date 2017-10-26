@@ -23,6 +23,13 @@
 				(squares), all polling results (circles with error bars showing the 95% credible interval), and a running average with a two-week window. Treating this average as a 
 				model for the true state of public opinion at any time, I also plot the 68% and 95% credible intervals around this. If the model is any good, 95% of polls ought to lie
 				within the wider band. This isn't always true - which tells you that there are significant systematic differences in the results reported by different pollsters.</p>
+				<p>A new project: using scikit-learn to model the EU referendum result by constituency via demographic and electoral data. So far it's early days, but I've been 
+				able to use Lasso regression to create a linear model that generalises fairly well when you split the data into a training set and a test set.</p>
+				<iframe src="EU_ref_regression.html" width="700" height="700" style="border:none" align="middle"></iframe>
+				<p>Shown above: an interactive plot made with Bokeh, showing the randomly split training set and test set and how the model prediction compares with the estimate 
+				of the <emph>real</emph> result. Mostly pretty good - and because Lasso regression is regularised, you get a good idea of which factors are really predictive.
+				In this case, the strongest predictor of how a constituency voted is UKIP vote share (go figure), followed by the percentage of people with high level qualifications.
+				At the moment the model has a lot of degeneracy, but could easily be pruned.</p>
     		</div><!-- /.blurb -->
 		</div><!-- /.container -->
 		<footer>
