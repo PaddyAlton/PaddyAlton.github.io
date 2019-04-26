@@ -53,6 +53,12 @@ footer {
     font-size: .8em;
 }
 
+ul {
+  font-family:'Helvetica', 'Arial', 'Sans-Serif';
+  color:#333;
+  font-size: 1.5em;
+}
+
 ul.posts {
     margin: 20px auto 40px;
     font-size: 1.5em;
@@ -61,6 +67,12 @@ ul.posts {
 ul.posts li {
     list-style: square;
     font-size: 1.5em;
+}
+
+ol {
+  font-family:'Helvetica', 'Arial', 'Sans-Serif';
+  color:#333;
+  font-size: 1.5em;
 }
 
 ol.posts {
