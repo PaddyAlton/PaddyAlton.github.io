@@ -72,7 +72,7 @@ blockquote p { display: inline; }
 footer      { border-top: 1px solid #d5d5d5; font-size: .8em; }
 
 ul          { font-family:'Helvetica', 'Arial', 'Sans-Serif'; color:#333; font-size: 1.5em; text-align: justify; }
-ul li       { margin: 1em 2em; padding: 1em 0; font-size: 1em; }
+ul li       { margin: 0.5em 2em; padding: 1em 0; font-size: 1em; }
 
 ol          { font-family:'Helvetica', 'Arial', 'Sans-Serif'; color:#333; font-size: 1.5em; text-align: justify; }
-ol li       { margin: 1em 2em; padding: 1em 0; font-size: 1em; }
+ol li       { margin: 0.5em 2em; padding: 1em 0; font-size: 1em; }
