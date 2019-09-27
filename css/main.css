@@ -34,8 +34,9 @@ blockquote {
     font-size: 1.7em;
     font-weight: bold;
     font-style: italic;
-    padding:0.5em 2em;
 }
+blockquote:before { content: open-quote; }
+blockquote:after { content: close-quote; }
 
 footer      { border-top: 1px solid #d5d5d5; font-size: .8em; }
 
