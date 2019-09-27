@@ -17,8 +17,8 @@ a:hover { text-decoration: underline; }
 /* Headings */
 h1      { font-size: 3.0em; font-family:'Helvetica', 'Arial', 'Sans-Serif'; background:#24661e; color:#fff; margin-bottom:0em; padding:0.5em 1em 3.0em; }
 h2      { font-size: 2.5em; font-family:'Helvetica', 'Arial', 'Sans-Serif'; background:#24661e; color:#fff; margin-bottom:0em; padding:0.5em 1em 2.5em; }
-h3      { font-size: 2.0em; font-family:'Helvetica', 'Arial', 'Sans-Serif'; padding:0.5em 1em; }
-h4      { font-size: 1.7em; font-family:'Helvetica', 'Arial', 'Sans-Serif'; padding:0.5em 1em; }
+h3      { font-size: 2.0em; font-family:'Helvetica', 'Arial', 'Sans-Serif'; padding:0.3em 1em; }
+h4      { font-size: 1.7em; font-family:'Helvetica', 'Arial', 'Sans-Serif'; padding:0.3em 1em; }
 
 p {
     font-size: 1.5em;
@@ -34,7 +34,7 @@ q {
     font-size: 1.7em;
     font-weight: bold;
     font-style: italic;
-    text-align: end;
+    /*text-align: end;*/
     padding:0.5em 2em;
 }
 
@@ -46,4 +46,4 @@ ul.posts li { list-style: square; font-size: 1.5em; }
 
 ol          { font-family:'Helvetica', 'Arial', 'Sans-Serif'; color:#333; font-size: 1.5em; text-align: justify; }
 ol.posts    { margin: 20px auto 40px; font-size: 1.5em; }
-ol.posts li { margin: 1em 0; font-size: 1.5em; }
+ol.posts li { margin: 1em 2em; padding: 1em 0; font-size: 1.5em; }
