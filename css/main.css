@@ -76,5 +76,6 @@ ul.posts    { margin: 20px auto 40px; font-size: 1.5em; }
 ul.posts li { list-style: square; font-size: 1.5em; }
 
 ol          { font-family:'Helvetica', 'Arial', 'Sans-Serif'; color:#333; font-size: 1.5em; text-align: justify; }
-ol.posts    { margin: 20px auto 40px; font-size: 1.5em; }
-ol.posts li { margin: 1em 2em; padding: 1em 0; font-size: 1.5em; }
+/*ol.posts    { margin: 20px auto 40px; font-size: 1.5em; }
+ol.posts li { margin: 1em 2em; padding: 1em 0; font-size: 1.5em; }*/
+ol li { margin: 1em 2em; padding: 1em 0; font-size: 1.5em; }
