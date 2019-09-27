@@ -1,10 +1,9 @@
 html { background:#def0d4; padding:5%; }
-body { background:#fff;  margin: 60px auto; width: 70%; }
+body { background:#fff;  margin: 60px auto; width: 80%; }
 
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    background:#24661e;
-    color:#fff;
+    background:#fff;
     padding: 0.5em;
     list-style: none;
     font-weight: bold;
@@ -18,8 +17,8 @@ a:hover { text-decoration: underline; }
 /* Headings */
 h1      { font-size: 3.0em; font-family:'Helvetica', 'Arial', 'Sans-Serif'; background:#24661e; color:#fff; margin-bottom:0em; padding:0.5em 1em 3.0em; }
 h2      { font-size: 2.5em; font-family:'Helvetica', 'Arial', 'Sans-Serif'; background:#24661e; color:#fff; margin-bottom:0em; padding:0.5em 1em 2.5em; }
-h3      { font-size: 2.0em; font-family:'Helvetica', 'Arial', 'Sans-Serif'; }
-h4      { font-size: 1.7em; font-family:'Helvetica', 'Arial', 'Sans-Serif'; }
+h3      { font-size: 2.0em; font-family:'Helvetica', 'Arial', 'Sans-Serif'; padding:0.5em 1em; }
+h4      { font-size: 1.7em; font-family:'Helvetica', 'Arial', 'Sans-Serif'; padding:0.5em 1em; }
 
 p {
     font-size: 1.5em;
