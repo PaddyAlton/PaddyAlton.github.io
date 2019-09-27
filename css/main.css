@@ -36,7 +36,40 @@ blockquote {
     font-style: italic;
 }
 blockquote:before { content: open-quote; }
-blockquote:after { content: close-quote; }
+
+blockquote {
+    background: #fff;
+    border-left: 10px solid #def0d4;
+    margin: 1.5em 10px;
+    padding: 0.5em 10px;
+    quotes: "\201C""\201D""\2018""\2019";
+    font-size: 1.7em;
+    font-weight: bold;
+    font-style: italic;
+  }
+blockquote:before {
+    color: #def0d4;
+    content: open-quote;
+    font-size: 4em;
+    line-height: 0.1em;
+    margin-right: 0.25em;
+    vertical-align: -0.4em;
+    font-size: 1.7em;
+    font-weight: bold;
+    font-style: italic;
+}
+blockquote:after {     
+    color: #def0d4;
+    content: close-quote;
+    font-size: 4em;
+    line-height: 0.1em;
+    margin-right: 0.25em;
+    vertical-align: -0.4em;
+    font-size: 1.7em;
+    font-weight: bold;
+    font-style: italic;
+}
+blockquote p { display: inline; }
 
 footer      { border-top: 1px solid #d5d5d5; font-size: .8em; }
 
