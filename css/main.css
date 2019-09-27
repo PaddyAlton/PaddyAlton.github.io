@@ -54,7 +54,6 @@ blockquote:before {
     line-height: 0.1em;
     margin-right: 0.25em;
     vertical-align: -0.4em;
-    font-size: 1.7em;
     font-weight: bold;
     font-style: italic;
 }
@@ -65,7 +64,6 @@ blockquote:after {
     line-height: 0.1em;
     margin-right: 0.25em;
     vertical-align: -0.4em;
-    font-size: 1.7em;
     font-weight: bold;
     font-style: italic;
 }
