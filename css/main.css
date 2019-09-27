@@ -29,12 +29,11 @@ p {
     padding:0.5em 1em;
 }
 
-q {
+blockquote {
     color: #333;
     font-size: 1.7em;
     font-weight: bold;
     font-style: italic;
-    /*text-align: end;*/
     padding:0.5em 2em;
 }
 
